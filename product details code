@@ -1,0 +1,22 @@
+class ProductDetails
+{
+ 	String code;
+	String Name;
+	Float price;
+	void getProductDetails()
+	{
+	System.out.println("ProductCode:"+code);
+	System.out.println("ProductName:"+Name);
+	System.out.print("ProductPrice:"+price);
+	}
+
+	public static void main(String args[])
+ 	{
+	ProductDetails pd=new ProductDetails();
+	pd.code="143WD#";
+	pd.Name="Raj";
+	pd.price=650.39F;
+	pd.getProductDetails();
+	
+ 	}
+}
